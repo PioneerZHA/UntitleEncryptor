@@ -35,7 +35,7 @@ pip install cryptography
 
 ### **运行程序**
 ```bash
-python 234.py
+python main.py
 ```
 
 ## **🎮 使用方法**
