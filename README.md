@@ -1,5 +1,9 @@
 # **UntitleEncryptor - README**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
+[![Platform: Win/macOS/Linux](https://img.shields.io/badge/Platform-Win%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
+
 ## **📜 起源：从哲学探讨到代码实现**
 
 ### **1. 最初的问题**
