@@ -655,7 +655,7 @@ class DOSEncryptorUI:
                     text=f"使用的加密算法:\n" + 
                         "\n".join(f"- {algo}" for algo in used_algos) + 
                         f"\n\n{size_info}\n" +
-                        "所有加密密钥已被销毁，此文件无法被解密！"
+                        "所有加密密钥已被销毁，加密成功！"
                 )
                 self.status.config(text=f"加密完成! 保存为: {output_path}")
                 
@@ -664,7 +664,7 @@ class DOSEncryptorUI:
                     f"文件已加密并保存为:\n{output_path}\n\n"
                     f"{size_info}\n"
                     f"耗时: {time_str}\n\n"
-                    f"所有加密密钥已被销毁，此文件无法被解密！"
+                    f"所有加密密钥已被销毁，加密成功！"
                 )
                 
             self.root.after(0, update_final_status)
